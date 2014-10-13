@@ -1,0 +1,25 @@
+body {
+  position: relative;
+  background: #222;
+}
+.pads {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.pad {
+  width: 20vh;
+  height: 20vh;
+  background: gray;
+  display: inline-block;
+}
+.active {
+  background: lightGray;
+}
+.on {
+  background: Darkorange;
+}
+.on.active {
+  background: orange !important;
+}
